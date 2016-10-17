@@ -1,0 +1,37 @@
+{
+  "name": "@saadshahd/weeks",
+  "version": "0.0.0",
+  "description": "Get milliseconds from weeks",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:saadshahd/weeks.git",
+    "type": "git"
+  },
+  "author": "Saad Shahd <dev.saad.shahd@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "weeks",
+    "milliseconds",
+    "time",
+    "interval",
+    "duration"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "@saadshahd/days": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
